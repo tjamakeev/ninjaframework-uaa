@@ -1,0 +1,17 @@
+<#import "../layout/defaultLayout.ftl.html" as layout>
+<@layout.myLayout "Home page">
+
+ContextPath: [${contextPath}]
+<h1>${i18n("hello.world")}</h1>
+<p>${i18n("hello.world.json")}</p>
+<a href="${contextPath}/app/hello_world.json">Hello World Json</a>
+<br/>
+<a href="${contextPath}/login">Login</a>
+<br/>
+<a href="${contextPath}/logout">Logout</a>
+<br/>
+<a href="https://webapps.university.kg/uaa">Profile</a>
+
+<br/>
+
+</@layout.myLayout>

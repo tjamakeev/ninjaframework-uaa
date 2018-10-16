@@ -1,0 +1,12 @@
+target
+
+
+.idea/
+
+*.iml
+.DS_Store
+# --- NetBeans related --- #
+nbactions.xml
+nb-configuration.xml
+# --- end of NetBeans ---- #
+
